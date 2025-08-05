@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 horas=datetime.now()
 agr=horas.strftime(%D-%M-%Y %H-%M-%S) 
-res=str(input("Digite (H) para ver a data e o horário.).upper()
+res=str(input("Digite (H) para ver a data e o horário.").upper()
 if horas==H
 	print(agr)
 else:
