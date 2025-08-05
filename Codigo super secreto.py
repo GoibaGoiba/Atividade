@@ -1,12 +1,12 @@
 import os
 from datetime import datetime
 horas=datetime.now()
-agr=horas.strftime(%D-%M-%Y %H-%M-%S) 
-res=str(input("Digite (H) para ver a data e o horário.").upper()
-if horas==H
+agr=horas.strftime("%d-%m-%y %H-%M-%S") 
+res=str(input("Digite (H) para ver a data e o horário.").upper())
+if horas=="H":
 	print(agr)
 else:
-	print("Então que tal uma receita de bolo?)
+	print("Então que tal uma receita de bolo?")
 	print("=========Massa do Bolo de Cenoura=========")
 	print("1/2 xícara(chá) de óleo")
 	print("4 ovos")
