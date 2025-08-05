@@ -3,7 +3,7 @@ from datetime import datetime
 horas=datetime.now()
 agr=horas.strftime("%d-%m-%y %H-%M-%S") 
 res=str(input("Digite (H) para ver a data e o horário.").upper())
-if horas=="H":
+if res=="H":
 	print(agr)
 else:
 	print("Então que tal uma receita de bolo?")
